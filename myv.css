@@ -3,31 +3,35 @@ html {
     font-size: 62,5%;
     color:black;
     font-family: 'Special Elite', cursive;
+    margin: 0;
 }
-
-
 /* Menú */
-
 nav ul, nav li{
     margin: 0;
     padding: 0;
     z-index: 4;
+
+
 }
 nav ul{ 
     list-style: none;
     width: 100%;
+    position: fixed;
+    display: block;
 }
 nav li{
     float: left;
     position: relative;
     width: 20%;
+
+
 }
 nav a{
-    background: #3ACDFF;
+    background: white;
     color:black;
-    font-size: 1.35rem;
+    font-size: 1.3rem;
     display: block;
-    padding: 25px 25px;
+    padding: 20px 20px;
     text-align: center;
     text-decoration: none;
 }
@@ -35,9 +39,7 @@ li a:hover{
     background-color: black;
     color: white;
 }
-
 /*Submenu*/
-
 li a:hover{
     background-color: black;
     color: white;
@@ -53,7 +55,7 @@ li:hover ul#submenu {
     display: block;
     top: 69px; /*distancia arriba al menu */
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-decoration: none;
     background: black;
 }
@@ -65,7 +67,6 @@ li:hover ul#submenu {
 #submenu a:hover {
     background: grey;
 }
-
 /* Contenido */
 
 h1 {
