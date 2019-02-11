@@ -158,9 +158,9 @@ p{
 }
 .gridbio p{
     font-size: 0.8rem;
-    line-height: 10px;
-    letter-spacing: 1px;
-    word-spacing: 3px;
+    line-height: 15px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
     text-align: center;
     vertical-align: middle;
 }
